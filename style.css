@@ -1,0 +1,35 @@
+header {
+	text-align: center;
+}
+
+.row {
+	border: 1px solid orange;
+	display: flex;
+	margin: 10px;
+}
+
+.row div {
+	height: 2.5em;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	overflow: hidden;
+	word-break: break-all;
+}
+
+.row div:not(:last-child) {
+	border-right: 1px solid orange;
+}
+
+.row .candidate-id {
+	flex: none;
+	width: 2em;
+	background-color: rgb(210, 231, 227);
+}
+
+.row .candidate-status {
+	flex: none;
+	width: 4em;
+}
