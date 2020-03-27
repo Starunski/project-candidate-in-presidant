@@ -26,7 +26,7 @@ header {
 .row .candidate-id {
 	flex: none;
 	width: 2em;
-	background-color: rgb(210, 231, 227);
+	background-color: rgb(20, 150, 122);
 }
 
 .row .candidate-status {
