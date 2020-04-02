@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
+  <body>
     <header>Candidats in presidant of America</header>
-    <div class="table">
 
-        <div class="row">
-
-            <div class="candidate-id">id</div>
-            <div>First Name</div>
-            <div>Last Name</div>
-            <div>Gender</div>
-            <div>Dob</div>
-            <div>Phone</div>
-            <div class="candidate-status">Status</div>
-            <div>Email</div>
-            <!-- <div>web_site</div> -->
-
-        </div>
-
-
+    <div class="lds-ring">
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
-</body>
-<script src="main.js"></script>
 
+    <div class="table">
+      <div class="row">
+        <div class="candidate-id">id</div>
+        <div>First Name</div>
+        <div>Last Name</div>
+        <div>Gender</div>
+        <div>Dob</div>
+        <div>Phone</div>
+        <div class="candidate-status">Status</div>
+        <div>Email</div>
+        <!-- <div>web_site</div> -->
+      </div>
+    </div>
+  </body>
+
+  <script src="services/user-service.js"></script>
+  <script src="components/cell.component.js"></script>
+  <script src="main.js"></script>
 </html>
